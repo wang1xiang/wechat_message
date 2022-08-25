@@ -2,6 +2,7 @@
 
 ## 实现功能
 
+在原有项目基础上新增了：
 1. 使用node-schedule设置定时发送任务，每日定时发送
 2. 通过[配置](https://github.com/wang1xiang/wechat_message/blob/master/src/config/config.js)可自动计算时间
 3. 拉取天气及每日情话，自动拼接并发送
