@@ -16,6 +16,17 @@ npm start
 
 ## 其他说明
 
+#### 模板代码
+
+```
+{{nowDate.DATA}}
+城市：{{city.DATA}}
+天气： {{weather.DATA}}
+气温： {{temperature.DATA}} 
+今天是我们恋爱的 {{loveDate.DATA}} 天 
+{{txt.DATA}}
+```
+
 #### 公众号测试地址
 
 https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
