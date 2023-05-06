@@ -24,7 +24,7 @@ const getAllDataAndSend = (param) => {
   
   const weekDay = today.getDay();
   listConfig.loveDate.value = lastDay;
-  listConfig.nowDate.value = `今天是${todaystr}，星期${week[weekDay]}`;
+  listConfig.nowDate.value = `${todaystr}，星期${week[weekDay]}`;
   return Promise.all([getContent(), getWeatherTips(), getWeatherData()]).then(
     (data) => {
       listConfig.txt.value = data[0].data.text;
